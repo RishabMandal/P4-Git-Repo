@@ -1,0 +1,19 @@
+[8/25/2025 3:46:22 PM] - Exception: System.FormatException
+Message: Input string was not in a correct format.
+StackTrace:    at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Double.Parse(String s)
+   at Day12Ex1Try2.BooksOnAsubject.Add_book() in C:\Users\Rishab\source\repos\Day12Ex1Try2\Day12Ex1Try2\BooksOnAsubject.cs:line 72
+--------------------------------------------------
+[8/25/2025 3:50:29 PM] - Exception: System.FormatException
+Message: Input string was not in a correct format.
+StackTrace:    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Day12Ex1Try2.BooksOnAsubject.modify_price() in C:\Users\Rishab\source\repos\Day12Ex1Try2\Day12Ex1Try2\BooksOnAsubject.cs:line 140
+--------------------------------------------------
+[8/25/2025 4:02:57 PM] - Exception: System.FormatException
+Message: Input string was not in a correct format.
+StackTrace:    at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Double.Parse(String s)
+   at Day12Ex1Try2.BooksOnAsubject.Add_book() in C:\Users\Rishab\source\repos\Day12Ex1Try2\Day12Ex1Try2\BooksOnAsubject.cs:line 72
+--------------------------------------------------
